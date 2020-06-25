@@ -14,11 +14,11 @@ class TrainingDataImg:
     
     """
 
-    def __init__(self,IMG_SIZE=100):
+    def __init__(self,IMG_SIZE=100,DATADIR="/mnt/c/Users/JOHN/development/im_detection/PetImages"):
         
         self.IMG_SIZE=IMG_SIZE
         # DATADIR = "C:/Users/JOHN/development/im_detection/PetImages"
-        self.DATADIR = "/mnt/c/Users/JOHN/development/im_detection/PetImages"
+        self.DATADIR = DATADIR
         self.CATEGORIES = ["Dog", "Cat"]
         self.img_array = []
         self.training_data = []
