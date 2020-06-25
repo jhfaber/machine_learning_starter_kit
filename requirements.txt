@@ -1,0 +1,7 @@
+numpy
+pyautogui
+opencv-python
+jupyterlab
+matplotlib
+tqdm
+tensorflow
